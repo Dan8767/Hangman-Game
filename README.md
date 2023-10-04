@@ -12,7 +12,6 @@ Hangman is a fun and interactive word game where the player tries to guess a hid
 - User-friendly interface with visual clues.
 - Ability to input letter guesses.
 - Tracking of incorrect guesses and remaining attempts.
-- Win and lose conditions with appropriate feedback.
 
 ## Technologies Used
 
@@ -38,9 +37,5 @@ Contributions to this project are welcome! If you have ideas for improvements or
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
-
-## Acknowledgments
-
-- Special thanks to [abc.com](http://www.abc.com) for hosting this game.
 
 Enjoy playing Hangman, and may your word-guessing skills be sharp! If you have any questions or encounter any issues, please don't hesitate to contact us. Have fun!
