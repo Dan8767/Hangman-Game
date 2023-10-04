@@ -1,6 +1,6 @@
 # Hangman Game Project
 
-Welcome to the Hangman Game project! This is a classic word-guessing game built using HTML, CSS, and JavaScript. You can play the game live at [http://www.danishhameed8767.github.io/hangman-game/)](http://www.danishhameed8767.github.io/hangman-game/).
+Welcome to the Hangman Game project! This is a classic word-guessing game built using HTML, CSS, and JavaScript. You can play the game live at [(https://danishhameed8767.github.io/Hangman-Game/)](https://danishhameed8767.github.io/Hangman-Game/).
 
 ## Project Summary
 
@@ -24,7 +24,7 @@ This project is built using the following technologies:
 
 ## How to Play
 
-1. Visit the [live game](http://www.danishhameed8767.github.io/hangman-game/).
+1. Visit the [live game](https://danishhameed8767.github.io/Hangman-Game/).
 2. You will see an empty gallows and underscores representing the hidden word.
 3. Click on individual letters to guess them.
 4. If your guess is correct, the letter will be revealed in the word.
