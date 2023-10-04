@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" defer href="style.css" />
+    <link rel="shortcut icon" href="hangman.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div id="heading">HANGMAN GAME</div>
+    <div id="container">
+      <div class="btns">
+        <button id="reset">Reset</button>
+        <button id="play">Play</button>
+      </div>
+      <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag
+      </canvas>
+      <div id="dash-container"></div>
+      <div id="key-container"></div>
+      <div class="dropdown">
+        <div class="dropbtn">
+          Choose word category
+          <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="dropdown-content" id="myDropdown">
+          <a class="category" id="category1" href="#">Animal Names</a>
+          <a class="category" id="category2" href="#">Fruit Names</a>
+          <a class="category" id="category3" href="#">Country Names</a>
+        </div>
+      </div>
+      <hr id="line3">
+      <hr id="line1">
+      <div id="lives">Remaining Lives: 10</div>
+      <hr id="line2">
+      <button class="play-again">Play Again</button>
+      
+    </div>
+    <script type="module" src="script.js"></script>
+    <script src="animalNames.js"></script>
+    <script src="plantNames.js"></script>
+    <script src="countryNames.js"></script>
+  </body>
+</html>
